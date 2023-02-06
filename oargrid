@@ -1,0 +1,4 @@
+cp config/* ./
+mkdir oars
+php oargrid.php
+

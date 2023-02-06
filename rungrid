@@ -1,0 +1,7 @@
+cd /home/wolfgrid1/
+cp config/* ./
+# rm -r regions
+# mkdir regions
+php rungridmulti.php
+php rungrid.php
+

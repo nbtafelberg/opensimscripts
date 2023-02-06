@@ -1,0 +1,12 @@
+#scp -r  -P 3784 *.php  wolfgrid@grid.wolfterritories.org:/home/wolfgrid/
+#scp -r  *.php  wolfgrid1@regions1.wolfterritories.org:/home/wolfgrid1/
+#scp -r  *.php  wolfgrid1@regions2.wolfterritories.org:/home/wolfgrid1/
+#scp -r  *.php   wolfgrid1@regions3.wolfterritories.org:/home/wolfgrid1/
+#scp -r  *.php   wolfgrid1@regions4.wolfterritories.org:/home/wolfgrid1/
+#scp -r  *.php   wolfgrid1@regions5.wolfterritories.org:/home/wolfgrid1/
+##scp -r  *.php   wolfgrid1@regions6.wolfterritories.org:/home/wolfgrid1/
+#scp -r  *.php  wolfgrid1@regions8.wolfterritories.org:/home/wolfgrid1/
+scp * wolfgrid1@regions8.wolfterritories.org:/home/wolfgrid1/
+# scp -r *.php wolfgrid1@regions10.wolfterritories.org:/home/wolfgrid1/
+
+

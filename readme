@@ -1,0 +1,27 @@
+*NOTES*
+
+- Moving regions to westocean database
+
+// from source
+mysqldump -u root -puV6LTchS --no-create-db --no-create-info databasename > databasename.sql";
+// load into westocean
+mysql -u root -puV6LTchS westocean < databasename.sql
+
+// update the main database
+
+update grid.regions set databasename="westocean" where regioname="REGIONNAME";
+
+on server
+
+mkdir regions/master
+mkdir regions/master/bin
+
+This will be the big loader
+
+reboot machine those regions will be loaded
+
+*** ISSUES TO SOLVE ***
+
+1. When starting up a new region it's created under Lone Wolf - Wolf Grid North - that's because of opensim.ini - once the regions created we can move it to a new estatem manager etc
+
+

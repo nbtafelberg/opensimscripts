@@ -1,0 +1,3 @@
+@reboot /home/wolfgrid1/rungrid
+# everyday at 3am create oars
+0 3 * * * /home/wolfgrid1/oargrid
