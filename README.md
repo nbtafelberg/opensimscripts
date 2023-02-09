@@ -78,6 +78,30 @@ regions/master/bin
 
 before running
 
+<h1>Important</h1>
+
+Check out OpenSim.ini and GridCommon.ini - you need to just change the **** YOUR SERVERNAME HERE *** fields to your grid address, so for instance http://grid.wolfterritories.org and put them in the right place in your template folder.
+
+Then the scripts will do the rest....
+
+<h2>Rolling Restart Script</h2>
+
+To restart all the regions just start a screen session
+
+screen <enter>
+then
+
+php rollingrestart.php
+
+and leave it to it.
+
+
+<h3>One Final Note</h3>
+
+This is for education only and to help you build your grid. It's not a complete project and it's constantly being worked on.
+
+
+
 Lone Wolf
 Wolf Territories Grid
 
