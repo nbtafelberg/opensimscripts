@@ -132,7 +132,7 @@ function initMaster() {
     shell_exec($todo);
     dolog($todo);
      
-    $todo = 'mkdir /home/wolfgrid1/master/bin';]
+    $todo = 'mkdir /home/wolfgrid1/master/bin';
     shell_exec($todo);
     dolog($todo);
      
