@@ -8,11 +8,11 @@ I have been helping grid owners set things up - this takes a lot of my time so i
 
 <h1>How it works</h1>
 
-So this system works by having a template folder called "Template" which has a template version of OpenSim in it, the INI files OpenSim.ini and GridCommon.ini are edited with fields that are replaced when the system runs.
+So this system works by having a template folder called template in the home folder (so it's, template/bin/ and all the opensimstuff) which has a template version of OpenSim in it, the INI files OpenSim.ini and GridCommon.ini are edited with fields that are replaced when the system runs.
 
 The system takes the template and copies it into a regions folder in the folder you specify in config.php - note that you should create a config folder and use exampleconfig.php and rename it to config.php and have a copy in the regions folder, edit that first.
 
-The OpenSim template is avialable on request from Lone Wolf#8120 on discord. Please note it will need changing to your grid set up. 
+The OpenSim template is avialable on request from Lone Wolf#8120 on discord. Please note it will need changing to your grid set up.   You will need it as it has the keys for the scripts to replace when generating the regions folders.
 
 <h1>Robust</h2>
 
